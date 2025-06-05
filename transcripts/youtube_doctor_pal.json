@@ -10,5 +10,6 @@
   "spam_score": 3,
   "perspective_awareness": 0,
   "polarity_potential": 0,
-  "channel_diversity": null
+  "channel_diversity": null,
+  "overall_score": 0.6
 }

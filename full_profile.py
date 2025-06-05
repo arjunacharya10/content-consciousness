@@ -9,6 +9,7 @@ from traits.spam_score import score_spam_score
 from traits.perspective_awareness import score_perspective_awareness
 from traits.polarity_potential import score_polarity_potential
 from utils.domain_classifier import classify_domain
+from utils.overall_score import compute_overall_score
 
 def generate_trait_profile(text: str, filename: str) -> dict:
     profile = {}
@@ -34,5 +35,6 @@ def generate_trait_profile(text: str, filename: str) -> dict:
 
     # Placeholder for future
     profile["channel_diversity"] = None
+    profile["overall_score"] = compute_overall_score(profile)
 
     return profile

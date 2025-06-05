@@ -72,6 +72,30 @@ st.markdown(f"**Description**: {selected.get('description', '')}```")
 with st.expander("📖 Read full transcript"):
     st.write(selected.get("full_text", "No transcript available."))
 
+def score_to_color(score):
+    if score <= -4:
+        return "#8B0000"
+    elif score <= -2:
+        return "#B22222"
+    elif score < 0:
+        return "#FF4500"
+    elif score == 0:
+        return "#CCCCCC"
+    elif score < 2:
+        return "#6B8E23"
+    elif score < 4:
+        return "#228B22"
+    else:
+        return "#006400"
+
+score_val = selected.get("overall_score", 0)
+score_color = score_to_color(score_val)
+
+st.markdown(
+    f"<h2 style='color:{score_color}; font-size: 36px;'>Overall Score: {score_val} <span style='font-size: 18px;'>(-5 to +5)</span></h2>",
+    unsafe_allow_html=True
+)
+
 # Build radar bar chart
 radar_df = pd.DataFrame({
     "trait": numeric_traits,

@@ -50,6 +50,50 @@ This is part of a larger project focused on nudging users toward **conscious, co
 
 ---
 
+## Scoring Methodology
+
+Each content transcript is evaluated across multiple traits such as depth, novelty, attention quality, and more.
+
+To create a single meaningful signal, we compute an **Overall Content Score** ranging from **-5 to +5**.  
+This score is a weighted sum of core traits:
+
+| Trait                 | Weight    |
+| --------------------- | --------- |
+| Information Depth     | +0.25     |
+| Attention Quality     | +0.25     |
+| Value per Minute      | +0.20     |
+| Novelty Index         | +0.15     |
+| Perspective Awareness | +0.15     |
+| Spam Score            | **–0.30** |
+
+### Formula
+
+```python
+overall_score = (
+    0.25 * information_depth +
+    0.25 * attention_quality +
+    0.20 * value_per_minute +
+    0.15 * novelty_index +
+    0.15 * perspective_awareness -
+    0.30 * spam_score
+)
+```
+
+## ⚠️ Disclaimer
+
+The current weights used to compute the overall_score are heuristic and subject to change.
+They are based on preliminary intuition about which traits matter most to content quality and user well-being.
+
+As the project matures, we plan to:
+
+- Validate weights via real-world user experiments
+- Apply statistical modeling (e.g., regression on user ratings)
+- Use multi-objective optimization to balance engagement with epistemic quality
+
+This approach will make the scoring system more rigorous, interpretable, and robust.
+
+---
+
 ## 🚀 How to Use
 
 ### 1. Clone the repository
