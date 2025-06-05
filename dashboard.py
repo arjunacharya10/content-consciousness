@@ -6,10 +6,14 @@ import altair as alt
 
 st.set_page_config(layout="wide")
 st.title("📊 Content Trait Profile Dashboard")
-st.markdown("**Author: Arjun Acharya**")
-st.markdown("🔗 [Linkedin](https://www.linkedin.com/in/arjunacharya10/)", unsafe_allow_html=True)
+st.subheader("Author: Arjun Acharya")
+st.markdown("🔗 [Linkedin](https://www.linkedin.com/in/arjunacharya10/), [View Project on GitHub](https://github.com/arjunacharya10/content-consciousness)", unsafe_allow_html=True)
 # GitHub Link
-st.markdown("🔗 [View Project on GitHub](https://github.com/arjunacharya10/content-consciousness)", unsafe_allow_html=True)
+st.markdown("**Content Consciousness Labels**")
+
+# Load and show the image (no PIL needed)
+with open("content-labels.png", "rb") as file:
+    st.image(file.read(), caption="Score Range: Deep red (harmful/spammy) to Deep Green (meaningful/informative). This should be clearly displayed at the beginning of very content clearly in decreasing order of impact.", use_container_width=True)
 
 # --- About Section (loads README.md) ---
 def load_readme():
