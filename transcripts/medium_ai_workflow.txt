@@ -1,0 +1,325 @@
+16 AI Workflow Automation Platforms for No-Code AI Workflows
+Joyce Birkins
+Joyce Birkins
+
+The Current Landscape of AI Workflow Automation Tools
+In the current landscape, AI workflow automation tools are still maturing. They offer various customization features and plugins suitable for simple applications like creating social media content and generating images.
+
+Key Features:
+
+Support for custom plugins and large language models (LLM) to varying degrees.
+Ability to set up workflows, similar to Robotic Process Automation (RPA) processes.
+Availability of workflow templates, store templates, and plugin templates.
+Among the available tools, some focus on comprehensive customization, while others are tailored for team collaboration. Here’s a detailed look at some notable tools, including traditional workflow systems for reference.
+
+Comprehensive Customization
+Microsoft Power Automate
+Microsoft Power Automate offers the most comprehensive functionality, focusing on product and technical aspects. It connects local laptop RPA with cloud-based DPA, available in the paid version.
+
+
+Power Automate is feature-rich without unnecessary complexities.
+
+Dify / FastGPT
+Currently, Dify provides the best experience among Chinese workflow products. FastGPT’s open-source version offers robust functionality, while Dify’s commercial version requires minimal customization.
+
+Problems Solved:
+
+Complex Logic Construction: Simplifies the creation of applications with complex logic using multi-step workflows.
+Stability and Reproducibility: Enhances application stability and reproducibility by allowing precise control over each step’s logic and output.
+Integration of Complex Business Logic: Facilitates the integration of AI functions with complex business logic without extensive custom coding.
+
+SmythOS
+SmythOS enables the creation of complex sales robots, as illustrated in the flowchart below, featuring global variables like {meeting_recap} and {company_size}.
+
+
+It supports functions such as web scraping, email sending, and LLM integration, similar to mainstream platforms.
+
+
+Coze
+Currently, Coze offers basic functionality with poor user experience, possibly due to its free nature. Awaiting updates for significant improvements, especially in model upgrades and practical plugin implementation.
+
+MindStudio
+MindStudio supports custom LLMs, knowledge bases, and multiple plugins. It allows API generation for other platforms and usage tracking.
+
+
+Templates Available:
+
+Analyzing emotions from CSV files.
+AI resume analysis.
+Advertising and marketing creativity assistance.
+Users can customize workflows or input goals for AI-generated workflows.
+
+
+
+MindStudio’s LLMs are usage-based, with a $5 free credit for new users.
+
+
+Yingdao & Zapier
+Transitioning from traditional RPA, Yingdao is adding AI applications, similar to Zapier’s integration with AI tools like ChatGPT and HeyGen.
+
+
+With numerous mature plugins for domestic e-commerce and social platforms, Yingdao is more practical than many listed workflow products.
+
+
+Zapier also includes AI functionalities such as video generation with HeyGen.
+
+
+Reference Tools for Comparison
+Some tools appear to offer limited functionality and are listed for reference.
+
+Scriptit
+Supports custom text and APIs with an AI conversation interface.
+
+
+
+Leap
+Currently supports a few plugins, primarily image-related, with simple customization options.
+
+
+GPTAgent
+Allows for simple custom workflow construction.
+
+
+Mazaal
+Offers simple applications like emotion analysis from photos and zero-shot text classification.
+
+
+The interface resembles MindStudio, with model processing results on the right.
+
+
+Actionize
+Requires cross-platform operations.
+
+
+Coflow
+A niche product with simple workflow processes.
+
+
+Office Scenarios
+QuestFlow
+Ranked 4th on Product Hunt, QuestFlow focuses on team collaboration workflows like email sending, meeting summaries, social media posting, and news collection.
+
+
+QuestFlow offers limited templates, primarily for news collection, email translation, email collection, writing, and content generation.
+
+
+QuestFlow has specific industry scenarios and commercial pricing at $8 per month for 250 automation executions.
+
+
+Similar products for team workflows include Make and Nanonets, without AI models like Perplexity and GPT.
+
+
+Bardeen
+Automates tasks like summarizing Zoom meetings, writing emails, web scraping, and sending data to Slack or calendar reminders.
+
+
+Levity
+Automates tasks such as sending emails based on user information.
+
+
+Traditional Workflow Systems
+Bubble
+A comprehensive software development platform using a drag-and-drop interface, primarily for website development, with support for AI through Microsoft Azure’s OpenAI API.
+
+
+Sterlo
+Enables the creation of websites and apps, focusing on BI forms, CRM, and OEM management.
+
+
+Similar products include Caspio.
+
+达观RPA
+Traditional AI workflow, useful for comparison with newer tools.
+
+
+n8n
+An open-source tool with both code and UI modes, though the interface is not very user-friendly.
+
+
+This is Linyu’s AI note. If you find the article helpful, you can support with a like or subscription
+
+share photo on instagram: pamperherself
+
+daily life video on youtube : pamperherself
+
+share Chinne version articles on Wechat Offical Account: 博金斯的AI 笔记
+
+
+AI
+Artificial Intelligence
+Deep Learning
+Llm
+Ai Products
+99
+
+
+3
+
+
+Joyce Birkins
+Written by Joyce Birkins
+327 followers
+·
+0 following
+Agentic | Transformer | RAG ☛currently looking for new work opportunities📮joycebirkins@gmail.com
+
+
+Follow
+Responses (3)
+
+Write a response
+
+What are your thoughts?
+
+Cancel
+Respond
+Sonu
+Sonu
+
+Apr 8
+
+
+Nice list. I recently curated a list. You can check it out here - Ai workflows tools. Would love to have your feedback.
+3
+
+Reply
+
+Sonu
+Sonu
+
+Apr 8
+
+
+And, by the way, please do check out Digital First AI - a visual drag and drop AI workflows tool for marketers.
+Reply
+
+Jacelyn Siya
+Jacelyn Siya
+
+Jul 4, 2024
+
+
+This is a fantastic resource! The concept of no-code AI workflows is fascinating and has the potential to democratize AI for businesses of all sizes. For example, focusing on automating repetitive tasks (e.g., data entry, scheduling) or building…more
+
+1 reply
+
+Reply
+
+More from Joyce Birkins
+7 AI Music Generation Tools Tested -Suno Alternative?
+Joyce Birkins
+Joyce Birkins
+
+7 AI Music Generation Tools Tested -Suno Alternative?
+I wrote this article to explore AI music generation tools in search of modern, copyright-free music. Classical music and folk tunes often…
+Sep 28, 2024
+47
+5
+Deep Dive into OpenAI’s Reinforcement Fine-Tuning (RFT): Step-by-Step Guide, Comparison to…
+Joyce Birkins
+Joyce Birkins
+
+Deep Dive into OpenAI’s Reinforcement Fine-Tuning (RFT): Step-by-Step Guide, Comparison to…
+Before diving into the content, let’s talk about the abbreviations for reinforcement fine-tuning in China. Some call it RFT, others ReFT…
+Dec 24, 2024
+58
+3
+Old Money Elites 15 Italian Cashmere Brands Made in Italy
+Joyce Birkins
+Joyce Birkins
+
+Old Money Elites 15 Italian Cashmere Brands Made in Italy
+Follow more fashion updates on Substack: pamperherself.substack Please note: My Medium is reserved exclusively for AI content.
+Jul 16, 2024
+28
+5
+RDF vs. Property Graphs: which knowledge graph for LLM retrieval
+Joyce Birkins
+Joyce Birkins
+
+RDF vs. Property Graphs: which knowledge graph for LLM retrieval
+I recently received an email asking me about this question.This is a basic issue of knowledge graphs, and I’ll briefly explain here:
+Mar 28
+35
+1
+See all from Joyce Birkins
+Recommended from Medium
+AI Agents: Introduction (Part-1)
+Vipra Singh
+Vipra Singh
+
+AI Agents: Introduction (Part-1)
+Discover AI agents, their design, and real-world applications.
+
+Feb 3
+2.5K
+52
+This new IDE from Google is an absolute game changer
+Coding Beauty
+In
+
+Coding Beauty
+
+by
+
+Tari Ibaba
+
+This new IDE from Google is an absolute game changer
+This new IDE from Google is seriously revolutionary.
+
+Mar 12
+5.8K
+347
+10 AI Tools That Replace a Full Dev Team (Almost)
+Let’s Code Future
+In
+
+Let’s Code Future
+
+by
+
+TheMindShift
+
+10 AI Tools That Replace a Full Dev Team (Almost)
+The future isn’t coming — it’s already here. And it’s writing your code, fixing bugs, and even designing your UI.
+
+Apr 6
+3.2K
+107
+You Can Make Money With AI Without Quitting Your Job
+LearnAItoprofit.com
+In
+
+LearnAItoprofit.com
+
+by
+
+Nipuna Maduranga
+
+You Can Make Money With AI Without Quitting Your Job
+I’m doing it, 2 hours a day
+
+Mar 25
+11.2K
+515
+How to Build Agentic AI Systems from Scratch?
+Ali Hamza
+Ali Hamza
+
+How to Build Agentic AI Systems from Scratch?
+In this guide, we’ll break down the process of building agentic AI systems from scratch with step-by-step instructions.
+Dec 17, 2024
+318
+13
+The Open-Source Stack for AI Agents
+Data Science Collective
+In
+
+Data Science Collective
+
+by
+
+Paolo Perrone
+
+The Open-Source Stack for AI Agents
+I remember sitting down one weekend, convinced I was finally going to build a decent prototype of a research assistant agent. Nothing fancy…

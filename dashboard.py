@@ -78,10 +78,25 @@ radar_df = pd.DataFrame({
     "score": [selected.get(trait, 0) or 0 for trait in numeric_traits]
 })
 
+def trait_color(trait, score):
+    score = int(round(score or 0))
+    
+    if trait in ["spam_score", "polarity_potential"]:
+        # Inverse scale: high = bad (more red)
+        color_map = {
+            -5: "#006400", -4: "#008000", -3: "#228B22", -2: "#6B8E23", -1: "#9ACD32",
+             0: "#CCCCCC", 1: "#FF8C00", 2: "#FF4500", 3: "#DC143C", 4: "#B22222", 5: "#8B0000"
+        }
+    else:
+        # Normal scale: high = good (more green)
+        color_map = {
+            -5: "#8B0000", -4: "#B22222", -3: "#DC143C", -2: "#FF4500", -1: "#FF8C00",
+             0: "#CCCCCC", 1: "#9ACD32", 2: "#6B8E23", 3: "#228B22", 4: "#008000", 5: "#006400"
+        }
+    return color_map.get(score, "#CCCCCC")
+
 # Color scale by impact
-radar_df["color"] = radar_df["score"].apply(
-    lambda x: "#EF4444" if x < -2 else "#F97316" if x < 0 else "#E5E7EB" if x == 0 else "#34D399" if x <= 2 else "#10B981"
-)
+radar_df["color"] = radar_df.apply(lambda row: trait_color(row["trait"], row["score"]), axis=1)
 
 # Chart
 st.altair_chart(
