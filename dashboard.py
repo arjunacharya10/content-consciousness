@@ -6,8 +6,24 @@ import altair as alt
 
 st.set_page_config(layout="wide")
 st.title("📊 Content Trait Profile Dashboard")
+st.markdown("**Author: Arjun Acharya**")
+st.markdown("🔗 [Linkedin](https://www.linkedin.com/in/arjunacharya10/)", unsafe_allow_html=True)
+# GitHub Link
+st.markdown("🔗 [View Project on GitHub](https://github.com/arjunacharya10/content-consciousness)", unsafe_allow_html=True)
 
-# Load all .json profiles
+# --- About Section (loads README.md) ---
+def load_readme():
+    readme_path = os.path.join(os.path.dirname(__file__), "README.md")
+    if os.path.exists(readme_path):
+        with open(readme_path, "r") as f:
+            return f.read()
+    return "README.md not found."
+
+with st.expander("ℹ️ About this project"):
+    st.markdown(load_readme())
+
+st.markdown("---")
+# --- Load all .json profiles ---
 folder = "transcripts"
 files = [f for f in os.listdir(folder) if f.endswith(".json")]
 
