@@ -6,6 +6,12 @@ This is part of a larger project focused on nudging users toward **conscious, co
 
 ---
 
+### Demo Link
+
+🔗 [View Here](https://content-consciousness.streamlit.app)
+
+---
+
 ## 📐 What It Does
 
 - ✅ Scores content across 8 behavioral and epistemic traits
@@ -99,7 +105,7 @@ This approach will make the scoring system more rigorous, interpretable, and rob
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/content-trait-lab
+git clone https://github.com/arjunacharya10/content-consciousness
 cd content-trait-lab
 ```
 
